@@ -1,0 +1,83 @@
+.doctor-profile-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.10);
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.doctor-profile-card h2 {
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.doctor-specialization {
+  color: #764ba2;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.doctor-bio {
+  color: #444;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.doctor-contact {
+  margin-bottom: 2rem;
+}
+
+.doctor-contact h3 {
+  color: #667eea;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-weight: 500;
+  color: #764ba2;
+  margin-right: 0.5rem;
+}
+
+.doctor-history h3 {
+  color: #667eea;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.consultation-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafaff;
+}
+
+.consultation-table th, .consultation-table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.8rem 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.consultation-table th {
+  background: #f3f6fd;
+  color: #667eea;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .doctor-profile-card {
+    padding: 1rem;
+    max-width: 98vw;
+  }
+  .consultation-table th, .consultation-table td {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+} 
